@@ -21,7 +21,7 @@ body {
 
 .card {
   background-color: hsl(216, 50%, 16%);
-  padding: 2rem;
+  padding: 1.4rem;
   border-radius: 1.5rem;
   width: 28rem;
   display: flex;
