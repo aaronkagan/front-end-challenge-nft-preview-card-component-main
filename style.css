@@ -34,6 +34,10 @@ body {
   width: 97.5%;
 }
 
+.clear-cube-image:hover {
+  cursor: pointer;
+}
+
 .card-text-container {
   display: flex;
   flex-direction: column;
@@ -43,6 +47,11 @@ body {
 
 .card-title {
   color: hsl(0, 0%, 100%);
+}
+
+.card-title:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
 
 .card-text,
@@ -66,6 +75,11 @@ body {
   display: flex;
   align-items: center;
   gap: 0.8rem;
+}
+
+.price-container-left img,
+.price-container-right img {
+  height: 1.4rem;
 }
 
 .price-container-right {
@@ -103,4 +117,9 @@ body {
 
 .avatar-container figcaption span {
   color: hsl(0, 0%, 100%);
+}
+
+.avatar-container figcaption span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
