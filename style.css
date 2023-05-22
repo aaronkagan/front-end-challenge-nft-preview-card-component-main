@@ -74,7 +74,7 @@ body {
 .price-container-left {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  gap: 0.6rem;
 }
 
 .price-container-left img,
@@ -85,11 +85,13 @@ body {
 .price-container-right {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  gap: 0.6rem;
 }
 
 .price-text {
   color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  letter-spacing: 0.1rem;
 }
 
 .horizontal-line {
