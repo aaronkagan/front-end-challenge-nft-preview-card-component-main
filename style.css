@@ -12,6 +12,94 @@ html {
 
 body {
   background-color: hsl(217, 54%, 11%);
+  height: 100vh;
   font-size: 1.8rem;
   font-family: "Outfit", sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  width: 28rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clear-cube-image {
+  border-radius: 1rem;
+  width: 97.5%;
+}
+
+.card-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card-title {
+  color: hsl(0, 0%, 100%);
+}
+
+.card-text,
+.days-left {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.card-text {
+  font-size: 1.6rem;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.3rem;
+}
+
+.price-container-left {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.price-container-right {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.price-text {
+  color: hsl(178, 100%, 50%);
+}
+
+.horizontal-line {
+  background-color: hsl(215, 32%, 27%);
+  height: 1px;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.avatar-container img {
+  height: 2.5rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.avatar-container figcaption {
+  color: hsl(215, 51%, 70%);
+}
+
+.avatar-container figcaption span {
+  color: hsl(0, 0%, 100%);
 }
