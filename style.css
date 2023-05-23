@@ -154,7 +154,9 @@ body {
 .attribution {
   font-size: 1.1rem;
   text-align: center;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   margin-top: 1rem;
   color: hsl(0, 0%, 100%);
 }
