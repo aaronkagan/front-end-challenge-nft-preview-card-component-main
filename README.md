@@ -47,7 +47,9 @@ During this process my biggest takeaway that I learned was how to use an absolut
 ```html
 <div class="cube-image-container">
   <div class="cube-image-overlay">
-    <img class="white-eye" src="/images/icon-view.svg" alt="White Eye" />
+    <button class="eye-button">
+      <img class="white-eye" src="/images/icon-view.svg" alt="White Eye" />
+    </button>
   </div>
   <img
     class="clear-cube-image"
@@ -77,12 +79,19 @@ During this process my biggest takeaway that I learned was how to use an absolut
 .cube-image-overlay:hover {
   opacity: 100;
   cursor: pointer;
+  display: grid;
 }
 
 .clear-cube-image {
   border-radius: 1rem;
   width: 100%;
   height: 100%;
+}
+
+.eye-button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
 }
 ```
 
