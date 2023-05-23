@@ -150,3 +150,14 @@ body {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
 }
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+  display: block;
+  margin-top: 1rem;
+  color: hsl(0, 0%, 100%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
