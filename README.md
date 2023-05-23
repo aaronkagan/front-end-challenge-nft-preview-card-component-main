@@ -84,13 +84,6 @@ During this process my biggest takeaway that I learned was how to use an absolut
   width: 100%;
   height: 100%;
 }
-
-.white-eye {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
 ```
 
 ## Author
