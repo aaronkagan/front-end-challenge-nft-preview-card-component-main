@@ -40,7 +40,41 @@ Users should be able to:
 
 ### What I learned
 
-During this process my biggest takeaway that I learned was how to use an absolutely positioned overlay to add a filter hover effect for the hover state
+Accessibility: My biggest accessibility takeways from the project were;
+
+- Ensure there is a `<main>` element on the page
+- Use accessible words for buttons, alt text, labels, aria-labels, etc, that describe the acion being taken
+- Add descriptive aria labels to buttons abd inputs (among others)
+- Add visually hidden, screen reader only labels to buttons abd inputs (among others). Not all screen readers read aria labels properly so having descriptive labels helps improve accesibility
+
+```html
+<label for="button-expand-nft-image" class="visually_hidden"
+  >Expand NFT Image</label
+>
+<button
+  id="button-expand-nft-image"
+  aria-label="Expand NFT Image"
+  class="eye-button"
+>
+  <img class="white-eye" src="/images/icon-view.svg" alt="Expand NFT Image" />
+</button>
+```
+
+```css
+.visually_hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+```
+
+Filter Overlay:
+I also learned was how to use an absolutely positioned overlay to add a filter hover effect for the hover state
 
 <img src="./images/screenshot-hover.png" alt="Hover State" width=300px>
 
