@@ -130,5 +130,5 @@ I also learned was how to use an absolutely positioned overlay to add a filter h
 
 ## Author
 
-- Website - [Aaron Kagan](https://www.linkedin.com/in/aaron-kagan/)
+- LinkedIn - [Aaron Kagan](https://www.linkedin.com/in/aaron-kagan/)
 - Twitter - [@aaronkagandev](https://www.twitter.com/aaronkagandev)
