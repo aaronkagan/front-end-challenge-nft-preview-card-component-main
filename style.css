@@ -72,6 +72,7 @@ body {
 
 .card-title {
   color: hsl(0, 0%, 100%);
+  font-size: 1.8rem;
 }
 
 .card-title:hover {
