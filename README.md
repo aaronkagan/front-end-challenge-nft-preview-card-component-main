@@ -26,7 +26,6 @@ Users should be able to:
 
 ### Links
 
-- [Repo](https://github.com/aaronkagan/nft-preview-card)
 - [Live Site](https://fem-nft-prev-card.netlify.app/)
 
 ## My process
