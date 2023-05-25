@@ -21,14 +21,21 @@
   </head>
   <body>
     <div>
-      <article class="card">
+      <main class="card">
         <div class="cube-image-container">
           <div class="cube-image-overlay">
-            <button class="eye-button">
+            <label for="button-expand-nft-image" class="visually_hidden"
+              >Expand NFT Image</label
+            >
+            <button
+              id="button-expand-nft-image"
+              aria-label="Expand NFT Image"
+              class="eye-button"
+            >
               <img
                 class="white-eye"
                 src="/images/icon-view.svg"
-                alt="White Eye"
+                alt="Expand NFT Image"
               />
             </button>
           </div>
@@ -39,7 +46,7 @@
           />
         </div>
         <div class="card-text-container">
-          <h3 class="card-title">Equilibium #3429</h3>
+          <h1 id="card-title" class="card-title">Equilibium #3429</h1>
           <p class="card-text">
             Our Equilibium collection promotes balance and calm
           </p>
@@ -59,22 +66,31 @@
             <figcaption>Creation of <span>Jules Wyvern</span></figcaption>
           </figure>
         </div>
-      </article>
+      </main>
       <cite class="attribution">
         <div>
           Coded by
-          <a href="https://www.linkedin.com/in/aaron-kagan/" target="_blank"
+          <a
+            aria-label="Aaron Kagan LinkedIn"
+            href="https://www.linkedin.com/in/aaron-kagan"
+            target="_blank"
             >Aaron Kagan</a
           >
           | Twitter
-          <a href="https://twitter.com/aaronkagandev" target="_blank"
+          <a
+            aria-label="aaronkagandev Twitter"
+            href="https://twitter.com/aaronkagandev"
+            target="_blank"
             >@aaronkagandev</a
           >
         </div>
 
         <div>
           Design by
-          <a href="https://www.frontendmentor.io/" target="_blank"
+          <a
+            aria-label="frontendmentor.io"
+            href="https://www.frontendmentor.io"
+            target="_blank"
             >frontendmentor.io/</a
           >
         </div>
