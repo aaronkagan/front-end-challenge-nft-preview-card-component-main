@@ -1,100 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
-    />
-    <meta name="author" content="Aaron Kagan - The Anxious Programmer" />
-    <title>Frontend Mentor | NFT preview card component</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div>
-      <main class="card">
-        <div class="cube-image-container">
-          <div class="cube-image-overlay">
-            <label for="button-expand-nft-image" class="visually_hidden"
-              >Expand NFT Image</label
-            >
-            <button
-              id="button-expand-nft-image"
-              aria-label="Expand NFT Image"
-              class="eye-button"
-            >
-              <img
-                class="white-eye"
-                src="/images/icon-view.svg"
-                alt="Expand NFT Image"
-              />
-            </button>
-          </div>
-          <img
-            class="clear-cube-image"
-            src="/images/image-equilibrium.jpg"
-            alt="Clear Cube"
-          />
-        </div>
-        <div class="card-text-container">
-          <h1 id="card-title" class="card-title">Equilibium #3429</h1>
-          <p class="card-text">
-            Our Equilibium collection promotes balance and calm
-          </p>
-          <div class="price-container">
-            <div class="price-container-left">
-              <img src="/images/icon-ethereum.svg" alt="" />
-              <span class="price-text">0.041ETH</span>
-            </div>
-            <div class="price-container-right">
-              <img src="/images/icon-clock.svg" alt="" />
-              <span class="days-left">3 days left</span>
-            </div>
-          </div>
-          <div class="horizontal-line"></div>
-          <figure class="avatar-container">
-            <img src="/images/image-avatar.png" alt="Jules Wyvern Avatar" />
-            <figcaption>Creation of <span>Jules Wyvern</span></figcaption>
-          </figure>
-        </div>
-      </main>
-      <cite class="attribution">
-        <div>
-          Coded by
-          <a
-            aria-label="Aaron Kagan LinkedIn"
-            href="https://www.linkedin.com/in/aaron-kagan"
-            target="_blank"
-            >Aaron Kagan</a
-          >
-          | Twitter
-          <a
-            aria-label="aaronkagandev Twitter"
-            href="https://twitter.com/aaronkagandev"
-            target="_blank"
-            >@aaronkagandev</a
-          >
-        </div>
+    /> -->
+  <meta name="author" content="Aaron Kagan - The Anxious Programmer" />
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-        <div>
-          Design by
-          <a
-            aria-label="frontendmentor.io"
-            href="https://www.frontendmentor.io"
-            target="_blank"
-            >frontendmentor.io/</a
-          >
+<body>
+  <div>
+    <main class="card">
+      <div class="cube-image-container">
+        <div class="cube-image-overlay">
+          <label for="button-expand-nft-image" class="visually_hidden">Expand NFT Image</label>
+          <button id="button-expand-nft-image" aria-label="Expand NFT Image" class="eye-button">
+            <img class="white-eye" src="/images/icon-view.svg" alt="Expand NFT Image" />
+          </button>
         </div>
-      </cite>
-    </div>
-  </body>
+        <img class="clear-cube-image" src="/images/image-equilibrium.jpg" alt="Clear Cube" />
+      </div>
+      <div class="card-text-container">
+        <h1 id="card-title" class="card-title">Equilibium #3429</h1>
+        <p class="card-text">
+          Our Equilibium collection promotes balance and calm
+        </p>
+        <div class="price-container">
+          <div class="price-container-left">
+            <img src="/images/icon-ethereum.svg" alt="" />
+            <span class="price-text">0.041ETH</span>
+          </div>
+          <div class="price-container-right">
+            <img src="/images/icon-clock.svg" alt="" />
+            <span class="days-left">3 days left</span>
+          </div>
+        </div>
+        <div class="horizontal-line"></div>
+        <figure class="avatar-container">
+          <img src="/images/image-avatar.png" alt="Jules Wyvern Avatar" />
+          <figcaption>Creation of <span>Jules Wyvern</span></figcaption>
+        </figure>
+      </div>
+    </main>
+    <cite class="attribution">
+      <div>
+        Coded by
+        <a aria-label="Aaron Kagan LinkedIn" href="https://www.linkedin.com/in/aaron-kagan" target="_blank">Aaron
+          Kagan</a>
+        | Twitter
+        <a aria-label="aaronkagandev Twitter" href="https://twitter.com/aaronkagandev"
+          target="_blank">@aaronkagandev</a>
+      </div>
+
+      <div>
+        Design by
+        <a aria-label="frontendmentor.io" href="https://www.frontendmentor.io" target="_blank">frontendmentor.io/</a>
+      </div>
+    </cite>
+  </div>
+</body>
+
 </html>
