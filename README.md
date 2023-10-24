@@ -3,15 +3,19 @@
 ## Table of contents
 
 - [Overview](#overview)
+  - [Links](#links)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
+
+### Links
+
+- [Live Demo](https://fem-nft-prev-card.netlify.app/)
 
 ### The challenge
 
@@ -23,10 +27,6 @@ Users should be able to:
 ### Screenshot
 
 <img src="./images/screenshot-1.png" alt="NFT Preview Card" width=400px>
-
-### Links
-
-- [Live Site](https://fem-nft-prev-card.netlify.app/)
 
 ## My process
 
@@ -47,7 +47,9 @@ Accessibility: My biggest accessibility takeways from the project were;
 - Add visually hidden, screen reader only labels to buttons abd inputs (among others). Not all screen readers read aria labels properly so having descriptive labels helps improve accesibility
 
 ```html
-<label for="button-expand-nft-image" class="visually_hidden"
+<label
+  for="button-expand-nft-image"
+  class="visually_hidden"
   >Expand NFT Image</label
 >
 <button
@@ -55,7 +57,11 @@ Accessibility: My biggest accessibility takeways from the project were;
   aria-label="Expand NFT Image"
   class="eye-button"
 >
-  <img class="white-eye" src="/images/icon-view.svg" alt="Expand NFT Image" />
+  <img
+    class="white-eye"
+    src="/images/icon-view.svg"
+    alt="Expand NFT Image"
+  />
 </button>
 ```
 
@@ -81,7 +87,11 @@ I also learned was how to use an absolutely positioned overlay to add a filter h
 <div class="cube-image-container">
   <div class="cube-image-overlay">
     <button class="eye-button">
-      <img class="white-eye" src="/images/icon-view.svg" alt="White Eye" />
+      <img
+        class="white-eye"
+        src="/images/icon-view.svg"
+        alt="White Eye"
+      />
     </button>
   </div>
   <img
