@@ -15,7 +15,7 @@
 
 ### Links
 
-- [Live Demo](https://fem-nft-prev-card.netlify.app/)
+- Live Demo: [NFT Preview Card](https://fem-nft-prev-card.netlify.app/)
 
 ### The challenge
 
