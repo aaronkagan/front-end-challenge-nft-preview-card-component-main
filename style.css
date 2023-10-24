@@ -14,7 +14,7 @@ body {
   background-color: hsl(217, 54%, 11%);
   height: 100vh;
   font-size: 1.8rem;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   display: grid;
   place-items: center;
 }
@@ -150,19 +150,6 @@ body {
 .avatar-container figcaption span:hover {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
-}
-
-.attribution {
-  font-size: 1.1rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  margin-top: 1rem;
-  color: hsl(0, 0%, 100%);
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 
 .visually_hidden {
